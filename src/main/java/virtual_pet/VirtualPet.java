@@ -1,37 +1,50 @@
 package virtual_pet;
 
 public class virtualPet {
-    void tick() {
+    private void tick() {
         int gameTick = 1;
         return gameTick
     }
 
+ private void tick(){
+//        nitrate = nitrate+ 10;
+//        phosphate = phosphate + 10;
+        algae = algae+ 10;
+//        waterLevel = waterLevel + 10;
+//        hunger = hunger + 10;
+ }
+
+    public int getNitrate() {
+        int nitrate = 0;
+        return nitrate
+
+    }
+
+    public int getPhosphate() {
+        int phosphate = 0;
+        return phosphate;
+    }
+
+    public int getWaterLevel() {
+        int waterLevel = 0;
+        return waterLevel;
+
+    }
+
     public int getHunger() {
+        int hunger = 0;
+        return hunger;
 
     }
 
-    void getThirst() {
-    }
-
-    void getWaste() {
-
-    }
-
-    void getBoredom() {
+    public int getAlgae() {
+        int algae = 0;
+        return algae;
 
     }
 
-    void getPlay() {
-
-    }
-
-    public int getTiredness() {
-        int Tiredness = 0;
-        return Tiredness;
-
-    }
-
-    public int getEat() {
+    public static class algae{
+        algae objName = new algae();
     }
 }
 
