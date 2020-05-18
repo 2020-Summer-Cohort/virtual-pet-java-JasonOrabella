@@ -27,7 +27,8 @@ public class VirtualPet {
     public int getPhosphate() {
         return phosphate;
     }
-    public int getAlgae(){
+
+    public int getAlgae() {
         return algae;
     }
 
@@ -44,14 +45,17 @@ public class VirtualPet {
         phosphate = phosphate - 30;
 
     }
+
     public void feedFish() {
-       nitrate = nitrate + 10;
-       phosphate = phosphate + 10;
-       hunger = hunger - 30;
+        nitrate = nitrate + 10;
+        phosphate = phosphate + 10;
+        hunger = hunger - 30;
 
     }
+
     public void doNothing() {
     }
+
     public void quit() {
         boolean gamerun = false;
     }

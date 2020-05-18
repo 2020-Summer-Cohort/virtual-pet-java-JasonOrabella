@@ -7,10 +7,6 @@ public class VirtualPetApplication {
 
 
     public static void main(String[] args) {
-//        public static void game;
-
-//        void gameSaying() {
-//            will have a loop
 
         VirtualPet virtualPet = new VirtualPet();
         boolean run = true;
@@ -26,8 +22,6 @@ public class VirtualPetApplication {
             System.out.println("4. Admire fishes");
             System.out.println("5. Quit");
             System.out.println("Please enter your choice:");
-//                System.out.println( "Nitrate value" +" " + getNitrate());
-//                System.out.println("Phosphate " + int getPhosphate);
             Scanner input = new Scanner(System.in);
 
             int getAction = input.nextInt();
@@ -71,39 +65,4 @@ public class VirtualPetApplication {
                 virtualPet.tick();
                 System.out.println("Please enter a number between 1 and 5");
             }
-//                else if(getAction !=)
-//                int getActionTwo = input.nextInt();
-//                if (getActionTwo ==2){
-//                    System.out.println("You feed your fishies.");
-//                }
-//                int getActionThree = input.nextInt();
-//                if (getActionThree == 3){
-//                    System.out.println("You scrub the algae from the sides of your tank.");
-//
-//                }
-//                int getActionFour = input.nextInt();
-//                if (getActionFour ==4) {
-//                    System.out.println("You admire your lovely little fishes.");
-//                }
-//                int getActionFive = input.nextInt();
-//                if (getActionFive==5){
-//                    System.out.println("Thanks for Playing!");
-//
-//                }
-//                int getActionSix = input.nextInt();
-//                if (getActionSix==6){
-//                System.out.println(virtualPet.getPhosphate());
-//                }
 
-//                if (getAction == 1){
-//                    waterChange = true
-//                }
-//                if (getAction == 5) {
-//                    gamerun = false;
-//                }
-
-        }
-        //Interact with a VirtualPet object in this method
-    }
-
-}
