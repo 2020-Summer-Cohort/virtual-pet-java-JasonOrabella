@@ -66,3 +66,9 @@ public class VirtualPetApplication {
                 System.out.println("Please enter a number between 1 and 5");
             }
 
+
+        }
+
+    }
+
+}
